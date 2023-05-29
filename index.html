@@ -5,8 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .icon-shareicon {
+        width: 30px;
+        height: 20px;
+        fill: green;
+      }
+      .icon-saved-cart {
+        width: 30px;
+        height: 20px;
+        fill: red;
+      }
+      .icon-correct-symbol {
+        width: 30px;
+        height: 20px;
+        fill: blue;
+      }
+      .icon-warning-symbol {
+        width: 30px;
+        height: 20px;
+        fill: purple;
+      }
+      .icon-circle {
+        width: 30px;
+        height: 20px;
+        fill: yellowgreen;
+      }
+    </style>
   </head>
   <body>
-    <h1>hi</h1>
+    <svg class="icon-shareicon">
+      <use xlink:href="icons.svg#share-icon"></use>
+    </svg>
+
+    <svg class="icon-saved-cart">
+      <use xlink:href="icons.svg#saved-cart"></use>
+    </svg>
+
+    <svg class="icon-correct-symbol">
+      <use xlink:href="icons.svg#correct-symbol"></use>
+    </svg>
+
+    <svg class="icon-warning-symbol">
+      <use xlink:href="icons.svg#warning-symbol"></use>
+    </svg>
+
+    <svg class="icon-circle">
+      <use xlink:href="icons.svg#circle"></use>
+    </svg>
   </body>
 </html>
